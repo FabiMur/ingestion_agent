@@ -1,6 +1,7 @@
 from strands import tool
 from simpleeval import simple_eval
 
+
 @tool
 def calculator(expression: str) -> str:
     """Evaluates a mathematical expression and returns the result."""

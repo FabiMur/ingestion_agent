@@ -17,9 +17,14 @@ dependencies = [
     "pydantic>=2.12.5",
     "pydantic-settings>=2.9.1",
     "python-dotenv>=1.2.2",
+    "simpleeval>=1.0.7",
     "strands-agents>=1.33.0",
     "streamlit>=1.55.0",
 ]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
 
 [dependency-groups]
 dev = [
