@@ -7,13 +7,14 @@ authors = [
     { name = "Fabián Murgado", email = "fabian@fabianmurgado.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langfuse>=4.0.1",
+]
 
 [dependency-groups]
 dev = [
     "bandit>=1.9.4",
     "detect-secrets>=1.5.0",
-    "langfuse>=4.0.1",
     "pre-commit>=4.5.1",
     "pyright>=1.1.408",
     "pytest>=9.0.2",
